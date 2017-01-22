@@ -1,0 +1,4 @@
+<form class="todo-form" ng-submit="vm.addTodo()" novalidate>
+  <input ng-show="vm.displayCompleteAll()" type="checkbox" ng-model="vm.state.allCompleted" ng-change="vm.toggleCompleteAll()" autocomplete="off">
+  <input type="text" name="todo" ng-model="vm.text" />
+</form>

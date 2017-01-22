@@ -1,0 +1,5 @@
+<button ng-click="vm.setDisplayMode(vm.DisplayModes.all)">All</button>
+<button ng-click="vm.setDisplayMode(vm.DisplayModes.uncompleted)">Uncompleted</button>
+<button ng-click="vm.setDisplayMode(vm.DisplayModes.completed)">Completed</button>
+
+<todo-item ng-repeat="todo in vm.todos | todosByDisplayMode:vm.state.displayMode" todo="todo"></todo-item>

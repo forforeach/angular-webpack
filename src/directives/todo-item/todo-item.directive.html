@@ -1,0 +1,5 @@
+<div>
+  <input type="checkbox" ng-model="vm.todo.isCompleted" ng-change="vm.toggleCompleted()"/>
+  <span>{{ vm.todo.text }}</span>
+  <span class="remove" ng-click="vm.removeTodo(vm.todo.id)">X</span>
+</div>
