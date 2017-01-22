@@ -1,13 +1,17 @@
 {
   "name": "angular-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "AngularJS todo app with webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "karma start",
     "start": "webpack-dev-server"
   },
-  "author": "",
+  "author": "Dima Kuzmich",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forforeach/angular-webpack.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^3.4.34",
